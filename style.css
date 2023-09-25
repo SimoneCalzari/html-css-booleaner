@@ -57,6 +57,9 @@ ul {
  margin: 30px 15px;
 }
 
+table {
+  border-collapse: collapse;
+}
 .riga-header {
   color: white;
   background-color: #20a9e5;
