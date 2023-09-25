@@ -57,3 +57,40 @@ ul {
  margin: 30px 15px;
 }
 
+.riga-header {
+  color: white;
+  background-color: #20a9e5;
+  text-align: left;
+}
+
+.riga-prima, .riga-terza {
+  background-color: #b1e5f2;
+}
+
+.riga-seconda {
+  background-color: white;
+}
+
+.prima-colonna {
+  width: 25%;
+}
+
+.seconda-colonna {
+  width: 25%;
+}
+
+.terza-colonna {
+  width: 50%;
+}
+
+.second-paragraph {
+  margin-top: 30px;
+}
+
+.second-paragraph span {
+  background-color: yellow;
+}
+
+
+
+
