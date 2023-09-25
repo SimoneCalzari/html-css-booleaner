@@ -1,0 +1,190 @@
+/* generale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(carta.jpeg);
+}
+/* inizio header */
+header {
+  background-image: url(../img/pattern.png);
+  background-color: lightseagreen;
+  background-position: top;
+  height: 175px;
+  text-align: center;
+}
+
+header img {
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+/* fine header */
+.contenitore {
+  margin: 0 175px;
+}
+/* inizio main */
+main {
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+/* inizio titolo principale, autore e data */
+h1 {
+  font-size: 50px;
+  text-align: justify;
+}
+
+.article-writer {
+  margin-top: 20px;
+  color: black;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.pubblishing-date {
+  color: black;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.article-writer span {
+  color: #4ea0ff;
+  font-style: italic;
+  font-weight: bold;
+}
+/* fine titolo principale, autore e data */
+/* inizio immagini principali con didascalie */
+.heading-images {
+  margin: 30px 0px 30px 0px;
+}
+
+#first-photo {
+  width: 49%;
+}
+
+#second-photo {
+  width: 42%;
+}
+
+.didascalia{
+  font-weight: bold;
+  font-style: italic;
+}
+/* fine immagini principali con didascalie */
+/* inizio primo paragrafo */
+.first-paragraph {
+  margin-top: 30px;
+  text-align: justify;
+  font-family: 'Croissant One', cursive;
+}
+
+.first-paragraph span {
+  background-color: lightblue;
+}
+/* fine primo paragrafo */
+/* inizio ul */
+ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+li {
+  text-align: left;
+  font-family: 'Croissant One', cursive;
+}
+/* fine ul */
+/* inizio table */
+table {
+  border-collapse: collapse;
+  font-family: 'Croissant One', cursive;
+}
+
+.riga-header {
+  color: white;
+  background-color: lightseagreen;
+}
+td, th {
+  border: 1px solid black;
+}
+.riga-prima, .riga-terza {
+  background-color: lightblue;
+}
+
+.riga-seconda {
+  background-color: pink;
+}
+
+.prima-colonna {
+  width: 25%;
+}
+
+.seconda-colonna {
+  width: 25%;
+}
+
+.terza-colonna {
+  width: 50%;
+}
+
+.second-paragraph {
+  margin-top: 30px;
+  text-align: justify;
+  font-family: 'Croissant One', cursive;
+}
+
+.second-paragraph span {
+  background-color: lightgreen;
+}
+/* fine table */
+/* fine main */
+
+/* inizio footer */
+footer {
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+.footer-title {
+  color: lightseagreen;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.monitor {
+  width: 250px;
+  height: 150px;
+  background-image: url(../img/monitor.jpg);
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.graph {
+  width: 250px;
+  height: 150px;
+  background-image: url(../img/graph.jpg);
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.monitor div {
+  color: white;
+  font-size: 20px;
+  color: black;
+}
+
+.graph div {
+  color: white;
+  font-size: 20px;
+  color: white;
+}
+/* fine footer */
+
+
+
